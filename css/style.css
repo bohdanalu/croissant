@@ -1,5 +1,6 @@
 body {
-  background-color: rgb(237, 237, 156);
+  background-color: #d5d594;
+  text-align: center;
 }
 .container {
   max-width: 768px;
@@ -18,7 +19,7 @@ p {
 
 a {
   text-decoration: none;
-  font-size: 18px;
+  font-size: 20px;
   color: brown;
 }
 
@@ -28,4 +29,16 @@ a:not(:last-child) {
 
 a:hover {
   color: #542121;
+}
+
+a[href*="mailto"] {
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+img {
+  max-width: 768px;
+  width: 100%;
+  object-fit: cover;
+  margin-bottom: 20px;
 }
